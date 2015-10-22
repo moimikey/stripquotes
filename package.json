@@ -1,0 +1,31 @@
+{
+  "name": "stripquotes",
+  "version": "0.1.0",
+  "description": "strip leading/trailing single or double quotes from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moimikey/stripquotes.git"
+  },
+  "keywords": [
+    "strip quotes",
+    "strip quote",
+    "stripquotes",
+    "stripquote",
+    "strip",
+    "quote",
+    "replace"
+  ],
+  "author": "Michael Scott Hertzberg <mshertzberg@gmail.com> (http://michael.hertzberg.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moimikey/stripquotes/issues"
+  },
+  "homepage": "https://github.com/moimikey/stripquotes#readme",
+  "devDependencies": {
+    "tape": "~4.2.2"
+  }
+}
