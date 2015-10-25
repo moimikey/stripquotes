@@ -84,3 +84,9 @@ test('can remove unbalanced quotations from a string', function (t) {
   t.equal(stripquotes('‘cheese crackers”'), 'cheese crackers')
   t.end()
 })
+
+test('will return the given string without modification', function (t) {
+  t.plan(1)
+  t.equal(stripquotes('cheese crackers'), 'cheese crackers')
+  t.end()
+})
