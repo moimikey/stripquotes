@@ -8,7 +8,6 @@
 export default function stripquotes(q) {
   // ' " ‘ “ ‹ «
   const quoteStart = `\u0022|\u0027|\u2018|\u201C|\u2039|\u00AB`
-
   // ' " ’ ” › »
   const quoteEnd   = `\u0022|\u0027|\u2019|\u201D|\u203A|\u00BB|`
 
@@ -17,7 +16,7 @@ export default function stripquotes(q) {
   }
 
   if (!q.length) {
-    throw new Error(``)
+    throw new Error(`input was empty`)
   }
 
   let s = q;
