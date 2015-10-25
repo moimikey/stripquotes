@@ -4,7 +4,9 @@
   "description": "strip leading/trailing single or double quotes from a string",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "pile": "babel -d lib/ src/",
+    "prepublish": "npm run pile",
+    "test": "tape test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -19,13 +21,15 @@
     "quote",
     "replace"
   ],
-  "author": "Michael Scott Hertzberg <mshertzberg@gmail.com> (http://michael.hertzberg.co/)",
+  "author": "Michael Scott Hertzberg <mshertzberg@gmail.com> (http://hertzber.gs/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/moimikey/stripquotes/issues"
   },
   "homepage": "https://github.com/moimikey/stripquotes#readme",
   "devDependencies": {
+    "babel": "~5.8.23",
+    "tap-spec": "~4.1.0",
     "tape": "~4.2.2"
   }
 }
