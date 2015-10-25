@@ -1,13 +1,18 @@
 # stripquotes
 [![Version][npm-version-image]][npm-version-url] [![License][npm-license-image]][npm-license-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url] [![Build Status][drone-build-image]][drone-build-url]
 
-strip leading/trailing single or double quotes from a string
+> strip leading/trailing single or double quotes from a string, including guillemets!
 
 # examples
 ```js
 import stripquotes from 'stripquotes'
-console.log(stripquotes("'the biggest show on earth'"))
-> "the biggest show on earth"
+
+stripquotes(`«Ich liebe dich»`)
+> "Ich liebe dich..."
+stripquotes('“uhhhh na-na-na-na!”')
+> "uhhhh na-na-na-na!"
+stripquotes('"whatever gorl..."')
+> "whatever gorl..."
 ```
 
 > yaaaaassss queen yaaaaaassss
