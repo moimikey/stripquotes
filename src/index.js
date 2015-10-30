@@ -22,5 +22,6 @@ export default function stripquotes(q) {
 
   if (s.charAt(0).match(new RegExp(quoteStart))) s = s.substring(1, t--)
   if (s.charAt(--t).match(new RegExp(quoteEnd))) s = s.substring(0, t)
+
   return s
 }
