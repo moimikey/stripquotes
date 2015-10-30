@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/moimikey/stripquotes#readme",
   "devDependencies": {
-    "babel": "~6.0.2",
+    "babel": "~6.0.12",
     "tap-spec": "~4.1.0",
     "tape": "~4.2.2"
   }
