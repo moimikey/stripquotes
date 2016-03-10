@@ -1,4 +1,4 @@
-# stripquotes
+# stripquotes [![Build Status][travis-image]][travis-url]
 [![Version][npm-version-image]][npm-version-url] [![License][npm-license-image]][npm-license-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url] [![Build Status][drone-build-image]][drone-build-url]
 
 > strip leading/trailing single or double quotes from a string, including guillemets!
@@ -27,5 +27,5 @@ stripquotes('"whatever gorl..."')
 [npm-deps-image]: https://img.shields.io/david/moimikey/stripquotes.svg
 [npm-devdeps-url]: https://david-dm.org/moimikey/stripquotes
 [npm-devdeps-image]: https://img.shields.io/david/dev/moimikey/stripquotes.svg
-[drone-build-image]: https://drone.io/github.com/moimikey/stripquotes/status.png
-[drone-build-url]: https://drone.io/github.com/moimikey/stripquotes/latest
+[travis-url]: https://travis-ci.org/moimikey/stripquotes
+[travis-image]: https://travis-ci.org/moimikey/stripquotes.svg?branch=master
