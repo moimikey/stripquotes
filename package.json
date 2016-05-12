@@ -1,6 +1,6 @@
 {
   "name": "stripquotes",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "strip leading/trailing single or double quotes from a string",
   "main": "lib/index.js",
   "scripts": {
