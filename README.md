@@ -1,4 +1,6 @@
 # stripquotes [![Build Status][travis-image]][travis-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/moimikey/stripquotes.svg)](https://greenkeeper.io/)
 [![Version][npm-version-image]][npm-version-url] [![License][npm-license-image]][npm-license-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url]
 
 > strip leading/trailing single or double quotes from a string, including guillemets!
