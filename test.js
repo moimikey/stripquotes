@@ -1,12 +1,9 @@
-import stripquotesImport from './'
-
-var test = require('tape')
-var stripquotes = require('./')
+const test = require('tape')
+const stripquotes = require('./lib')
 
 test('returns a `stripquotes` function', function (t) {
-  t.plan(2)
+  t.plan(1)
   t.equal(typeof stripquotes, 'function')
-  t.equal(typeof stripquotesImport, 'function')
   t.end()
 })
 
