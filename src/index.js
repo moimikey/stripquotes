@@ -5,7 +5,7 @@
  * @param  {String} q
  * @return {String} s
  */
-export default function stripquotes(q) {
+export const stripquotes = function stripquotes(q) {
   const quoteStart = `'|"|‘|“|‹|«` // \u0022|\u0027|\u2018|\u201C|\u2039|\u00AB
   const quoteEnd   = `'|"|’|”|›|»` // \u0022|\u0027|\u2019|\u201D|\u203A|\u00BB
 
@@ -20,3 +20,5 @@ export default function stripquotes(q) {
 
   return s
 }
+
+module.exports = stripquotes
